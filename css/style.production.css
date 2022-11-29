@@ -300,6 +300,7 @@ button:focus,
   border: 1px solid;
   border-collapse: collapse;
   border-spacing: 2px;
+  width: 100%;
 }
 
 .my-work {
