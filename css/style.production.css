@@ -305,6 +305,10 @@ button:focus,
   text-indent: initial;
 }
 
+th {
+  padding: 10px 10px;
+}
+
 .my-work {
   text-align: center;
 }
