@@ -218,16 +218,29 @@ button:focus,
   }
 
   .standard-table {
-    border: 1px solid;
-    border-collapse: collapse;
+    border: 1px solid var(--secondary-color);
+    border-collapse: separate;
     border-spacing: 2px;
     width: 50%;
     display: table;
     text-indent: initial;
+    margin: 0 auto;
+    text-align: center;
   }
 
-  th {
-    padding: 10px 10px;
+  thead {
+    display: table-header-group;
+    vertical-align: middle;
+  }
+  
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+  }
+
+  td {
+    display: table-cell;
+    vertical-align: inherit;
   }
 
   .my-work {
