@@ -222,6 +222,7 @@ button:focus,
     border-collapse: collapse;
     border-spacing: 2px;
     width: 50%;
+    display: table;
   }
 
   .my-work {
