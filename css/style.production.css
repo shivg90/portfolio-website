@@ -310,6 +310,9 @@ button:focus,
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  border: 1px solid;
+  border-collapse: collapse;
+  border-spacing: 2px;
 }
 
 .my-work {
