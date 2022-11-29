@@ -231,8 +231,8 @@ button:focus,
   }
 
   .span-item {
-    background-color: var(--highlight-color);
-    font-style: italic;
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
   }
 
   @media all and (max-width: 500px) {
