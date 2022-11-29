@@ -297,17 +297,11 @@ button:focus,
 }
 
 .standard-table {
-  border: 1px solid #342e09;
-  border-collapse: separate;
+  border: 1px solid;
+  border-collapse: collapse;
   border-spacing: 2px;
   width: 50%;
   display: table;
-  margin: 0 auto;
-}
-
-thead {
-  display: table-header-group;
-  vertical-align: middle;
 }
 
 .my-work {
