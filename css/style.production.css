@@ -274,6 +274,9 @@ button:focus,
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .my-info {
