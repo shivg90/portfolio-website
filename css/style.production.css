@@ -297,19 +297,6 @@ button:focus,
 }
 
 .standard-table {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  max-width: 700px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
   border: 1px solid;
   border-collapse: collapse;
   border-spacing: 2px;
