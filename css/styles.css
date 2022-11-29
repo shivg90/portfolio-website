@@ -223,6 +223,7 @@ button:focus,
     border-spacing: 2px;
     width: 50%;
     display: table;
+    text-indent: initial;
   }
 
   .my-work {
