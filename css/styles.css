@@ -218,11 +218,17 @@ button:focus,
   }
 
   .standard-table {
-    border: 1px solid;
-    border-collapse: collapse;
+    border: 1px solid var(--secondary-color);
+    border-collapse: separate;
     border-spacing: 2px;
     width: 50%;
     display: table;
+    margin: 0 auto;
+  }
+
+  thead {
+    display: table-header-group;
+    vertical-align: middle;
   }
 
   .my-work {
