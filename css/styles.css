@@ -181,7 +181,7 @@ button:focus,
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   padding-left: 40px;
-  padding-right: 50px;
+  padding-right: 40px;
 }
 
 .grid__item {
