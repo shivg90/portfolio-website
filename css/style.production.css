@@ -7,11 +7,11 @@
 
 /* 
 Colours to use
-Background #f8e3d3 beige change to fdf9f6
+Background #fdf9f6
 Text #342e09 dark brown
 $primary-colour: #8c3b00;
-$secondary-colour: #F4BE52; change to fdfdf6
-highlight colour #FDDC22 yellow
+$secondary-colour: #fdfdf6
+highlight colour #fddc22 yellow
 */
 
 body {
@@ -142,6 +142,42 @@ border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 transition-property: opacity;
 }
 
+.button__secondary {
+  /* overwrites browser defaults and resets the border */
+border: none;
+/* takes the font from the outer container */
+display: inline-block;
+font-family: inherit;
+/* styles the background color, font color, and text decoration (underline, etc.) of the button */
+background-color: #8c3b00;
+color: #fff;
+text-decoration: none;
+/*adds spacing to the button (this will be discussed more in-depth later) */
+padding: 10px;
+border-radius: 3px;
+/* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+-webkit-transition-duration: 0.2s;
+     -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+-webkit-transition-property: opacity;
+-o-transition-property: opacity;
+transition-property: opacity;
+}
+
+.button__secondary {
+background-color: #fddc22;
+color: #2b2b2b;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+margin: 0 auto;
+}
+
 button:hover, 
 button:focus,
 .button:hover,
@@ -150,11 +186,6 @@ button:focus,
   cursor: pointer;
   /* reduces the opacity of the button to 70% */
   opacity: 0.7;
-}
-
-.button__secondary {
-  background-color: #fdfdf6;
-  color: #2b2b2b;
 }
 
 .navigation-list__item--active {
@@ -238,6 +269,7 @@ button:focus,
   background-color: white;
   padding: 50px;
   margin: 30px;
+  border: 1px solid #2b2b2b;
 }
 
 .grid__item:first-child {
@@ -274,9 +306,6 @@ button:focus,
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 20px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .my-info {
@@ -297,10 +326,11 @@ button:focus,
 
 .info-list {
   list-style-type: none;
+  margin: 0 0;
 }
 
 .standard-table {
-  border: 1px solid #342e09;
+  border: 1px solid #2b2b2b;
   border-collapse: separate;
   border-spacing: 2px;
   width: 50%;
@@ -308,11 +338,6 @@ button:focus,
   text-indent: initial;
   margin: 0 auto;
   text-align: center;
-}
-
-thead {
-  display: table-header-group;
-  vertical-align: middle;
 }
 
 tr {
