@@ -220,6 +220,7 @@ button:focus,
 
   .info-list {
     list-style-type: none;
+    margin: 0 0;
   }
 
   .standard-table {
