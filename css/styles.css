@@ -234,11 +234,6 @@ button:focus,
     text-align: center;
   }
 
-  thead {
-    display: table-header-group;
-    vertical-align: middle;
-  }
-  
   tr {
     display: table-row;
     vertical-align: inherit;
