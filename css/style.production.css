@@ -276,7 +276,6 @@ button:focus,
   display: inline-block;
   width: 33%;
   padding: 50px;
-  
  }
  /* end grid fallback */
 
@@ -356,9 +355,6 @@ button:focus,
 .info-list {
   list-style-type: none;
   margin: 0 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .standard-table {
