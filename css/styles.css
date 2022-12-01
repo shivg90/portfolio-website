@@ -183,8 +183,7 @@ button:focus,
 .grid__item {
   display: inline-block;
   width: 33%;
-  margin: 0 auto;
-  padding: 50px;
+  gap: 10%;
   background-color: white;
   border: 1px solid var(--dark-grey);
  }
