@@ -190,7 +190,8 @@ button:focus,
 .grid__item {
   display: inline-block;
   width: 33%;
-  gap: 10%;
+  padding: 50px;
+  
  }
  /* end grid fallback */
 
@@ -242,9 +243,14 @@ button:focus,
   flex-direction: column;
 }
 
+.standard-list {
+  text-align: center;
+}
+
 .info-list {
   list-style-type: none;
   margin: 0 0;
+  align-items: center
 }
 
 .standard-table {
