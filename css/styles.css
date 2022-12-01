@@ -186,7 +186,7 @@ button:focus,
 .grid__item { 
   background-color: white;
   padding: 50px;
-  margin: 30px;
+  margin: 40px;
   border: 1px solid var(--dark-grey);
 }
 
