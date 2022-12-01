@@ -179,17 +179,26 @@ button:focus,
   margin-left: 15px;
 }
 
+/* start grid fallback */
+.grid__item {
+  display: inline-block;
+  width: 33%;
+ }
+ /* end grid fallback */
+
+ @supports (display: grid) {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0 10%;
+  grid-gap: 20px;
+  margin: 0;
 }
 
 .grid__item { 
   background-color: white;
   padding: 50px;
-  margin: 40px;
+  margin: 0;
   border: 1px solid var(--dark-grey);
   width: auto;  
   min-height: auto;
@@ -198,6 +207,7 @@ button:focus,
 .grid__item:first-child {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
+}
 }
 
 .contact-info {
