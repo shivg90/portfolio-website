@@ -7,6 +7,8 @@
 
 /* 
 Colours to use
+/* 
+Colours to use
 Background #fdf9f6
 Text #342e09 dark brown
 $primary-colour: #8c3b00;
@@ -260,17 +262,16 @@ button:focus,
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.grid__item {
+.grid__item { 
   background-color: white;
   padding: 50px;
-  margin: 30px;
+  margin: 40px;
   border: 1px solid #2b2b2b;
 }
 
@@ -369,7 +370,7 @@ td {
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .grid {
-    -ms-grid-columns: 1fr 20px 1fr;
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
