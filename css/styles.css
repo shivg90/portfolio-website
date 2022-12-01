@@ -42,7 +42,7 @@ body {
 }
 
 .content {
-  flex: 1;
+  flex-grow: 1;
 }
 
 header {
@@ -51,6 +51,7 @@ header {
   line-height: 1.5;
   background-color: var(--background-color-secondary);
   border-bottom: 2px solid lightgray;
+  flex-shrink: 0;
 }
 
 h1 {
@@ -147,6 +148,7 @@ button:focus,
   flex-direction: column;
   text-align: center;
   margin-top: auto;
+  flex-shrink: 0;
 }
 
 .profile {
