@@ -190,6 +190,8 @@ button:focus,
   padding: 50px;
   margin: 40px;
   border: 1px solid var(--dark-grey);
+  width: auto;  
+  min-height: auto;
 }
 
 .grid__item:first-child {
