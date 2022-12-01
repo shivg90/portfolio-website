@@ -16,6 +16,12 @@ $secondary-colour: #fdfdf6
 highlight colour #fddc22 yellow
 */
 
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 body {
   background-color: #fdf9f6;
   font-family: 'PT Sans', sans-serif;
@@ -264,6 +270,7 @@ button:focus,
 .grid__item {
   display: inline-block;
   width: 33%;
+  gap: 10%;
  }
  /* end grid fallback */
 

@@ -25,6 +25,10 @@ highlight colour #fddc22 yellow
   --visitid-link-color: #663366;
 }
 
+html {
+  display: flex;
+}
+
 body {
   background-color: var(--background-color-primary);
   font-family: 'PT Sans', sans-serif;
@@ -33,7 +37,7 @@ body {
   line-height: 1.3;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .content {
