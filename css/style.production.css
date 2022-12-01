@@ -275,7 +275,7 @@ button:focus,
 .grid__item {
   display: inline-block;
   width: 33%;
-  margin: 0 auto;
+  gap: 10%;
  }
  /* end grid fallback */
 
