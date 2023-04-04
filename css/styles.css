@@ -330,5 +330,10 @@ td {
   animation: slide-in 5s infinite linear;
 }
 
+.project__meet{
+    width: 100%;
+    height: auto;
+}
+
   
 
